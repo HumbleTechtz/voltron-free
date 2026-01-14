@@ -1,15 +1,1 @@
-name: ubuntu-full-os
-services:
-  - name: ubuntu-os
-    image:
-      docker:
-        image: ubuntu:20.04
-    ports:
-      - port: 22
-        protocol: TCP
-      - port: 8000
-        protocol: HTTP
-    health_checks:
-      - type: tcp
-        port: 8000
-        timeout_seconds: 10
+
