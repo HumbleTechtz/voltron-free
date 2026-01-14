@@ -3,7 +3,7 @@ services:
   - name: ubuntu-os
     image:
       docker:
-        image: ubuntu:24.04
+        image: ubuntu:20.04
     ports:
       - port: 22
         protocol: TCP
